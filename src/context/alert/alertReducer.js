@@ -1,5 +1,5 @@
 import {Alert} from "../types";
-
+console.log('ds')
 const handlers = {
   [Alert.HIDE]: () => null,
   [Alert.SHOW]: (state, action) => action.payload,
